@@ -1,0 +1,12 @@
+pip install sqlalchemy pymysql
+from sqlalchemy import create_engine
+
+pip install pymysql
+from sqlalchemy import create_engine
+
+engine = create_engine(
+    "mysql+pymysql://root:%40TAGJanvi22@localhost/pandas"
+)
+
+
+import pandas as pd
